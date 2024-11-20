@@ -37,4 +37,3 @@ This is a simple web application that displays inspirational quotes with images.
 
 ## Acknowledgments
 - Thanks to Wikipedia for providing high-quality images.
-- Inspiration from various quote display applications.
