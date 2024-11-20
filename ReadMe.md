@@ -33,7 +33,7 @@ This is a simple web application that displays inspirational quotes with images.
 
 - **Quote**: "The only limit to our realization of tomorrow is our doubts of today."
 - **Author**: Franklin D. Roosevelt
-- **Image Source**: [Unsplash](https://unsplash.com)
+- **Image Source**: [Wikipedia]([https://unsplash.com](https://www.wikipedia.org/))
 
 ## Acknowledgments
 - Thanks to Wikipedia for providing high-quality images.
