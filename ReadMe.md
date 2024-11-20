@@ -1,66 +1,40 @@
-Inspirational Quotes Display Project
-Table of Contents
-About the Project
-Features
-Technologies Used
-Setup Instructions
-Usage
-Contributing
-License
-About the Project
-This project dynamically displays a collection of inspirational quotes with accompanying author images and additional details such as birthplace. The layout is visually appealing, leveraging Bootstrap for styling and a custom JavaScript script to manage and render the data.
+# Quote Display App
 
-Features
-Displays a random collection of quotes from famous personalities.
-Includes the author's name, image, and birthplace for context.
-Responsive design using Bootstrap.
-Circular images with a shadow effect for a polished UI.
-Technologies Used
-HTML: Markup structure for the page.
-CSS: Styling and layout enhancements (custom styles and Bootstrap).
-Bootstrap 5.3: For responsive design and component styling.
-JavaScript: Dynamic rendering of quote data.
-Setup Instructions
-Clone the repository to your local machine:
-bash
-Copy code
-git clone <repository-url>
-Navigate to the project folder:
-bash
-Copy code
-cd <project-folder>
-Open the index.html file in a browser to view the project:
-bash
-Copy code
-open index.html
-Usage
-The project iterates through a dataset of quotes stored in script.js.
-Each entry includes:
-A quote.
-Author's name.
-Author's birthplace.
-Author's image displayed in a circular frame.
-The user can enhance functionality, such as adding buttons to:
+This is a simple web application that displays inspirational quotes with images. The quotes are paired with images and are displayed dynamically on the webpage.
 
-Display random quotes.
-Filter quotes by author or keyword.
-Contributing
-Contributions are welcome! Follow these steps:
+## Features
+- Displays a list of quotes along with associated images.
+- Responsive design for a smooth experience on various devices.
+- Simple, clean, and user-friendly interface.
 
-Fork the repository.
-Create a feature branch:
-bash
-Copy code
-git checkout -b feature-name
-Commit your changes:
-bash
-Copy code
-git commit -m "Add some feature"
-Push to your branch:
-bash
-Copy code
-git push origin feature-name
-Open a pull request.
+## Screenshots
+![image](https://github.com/user-attachments/assets/8b09519c-a518-4b42-8f98-35132ffe21c4)
 
 
-![image](https://github.com/user-attachments/assets/938dd2fb-d144-4d19-9a23-464c32e008ab)
+## Technologies Used
+- **HTML**: To structure the webpage.
+- **CSS/Bootstrap**: For styling the page and making it responsive.
+- **JavaScript**: For generating dynamically element and accessing object.
+
+## How to Use
+1. Clone or download the repository.
+2. Open the `index.html` file in your preferred browser.
+3. The webpage will display a series of quotes, each paired with a relevant image.
+
+## Code Structure
+
+- **HTML**:
+  - `index.html`: Contains the structure of the webpage, including the display of quotes and images.
+  
+- **CSS**:
+  - Embedded in the `<style>` tag of `index.html`, it is used to style the webpage, including quote containers and images.
+
+## Example Quote
+
+- **Quote**: "The only limit to our realization of tomorrow is our doubts of today."
+- **Author**: Franklin D. Roosevelt
+- **Image Source**: [Unsplash](https://unsplash.com)
+
+## Acknowledgments
+- Thanks to Wikipedia for providing high-quality images.
+- Inspiration from various quote display applications.
