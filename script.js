@@ -207,7 +207,7 @@ Data.forEach((element, index) => {
                 </h2>
                 <p class="lead">${element.birthPlace}</p>
             </div>
-            <div class="col-md-5 ${(index % 2 == 0) ? "order-md-1 d-flex justify-content-center" : "d-flex justify-content-center"}">
+            <div class="col-md-5 ${(index % 2 == 0) ? "order-md-1  justify-content-center" : " justify-content-center"} d-flex">
                 <img src="${element.imgurl}" class="rounded-image" alt="${element.author}">
             </div>
         </div>
